@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack{
             TabView{
-                Dashboard()
+                DashboardView()
                     .tabItem {
                         Image(systemName: "house")
                         Text("Dashboard")
@@ -21,7 +21,7 @@ struct ContentView: View {
                         Image(systemName: "magnifyingglass")
                         Text("Explore")
                     }
-                Profile()
+                ProfileView()
                     .tabItem {
                         Image(systemName: "person.crop.circle")
                         Text("Profile")

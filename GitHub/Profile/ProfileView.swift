@@ -1,5 +1,5 @@
 //
-//  Profile.swift
+//  ProfileView.swift
 //  GitHub
 //
 //  Created by Bruno De Vivo on 17/11/22.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct Profile: View {
+struct ProfileView: View {
     var body: some View {
         Text("Profile")
     }
 }
 
-struct Profile_Previews: PreviewProvider {
+struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {
-        Profile()
+        ProfileView()
     }
 }

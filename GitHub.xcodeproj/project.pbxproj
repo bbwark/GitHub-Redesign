@@ -7,22 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		150B08672926732E00CFFADC /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150B08662926732E00CFFADC /* Dashboard.swift */; };
-		150B08692926734400CFFADC /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150B08682926734400CFFADC /* Profile.swift */; };
+		150B08672926732E00CFFADC /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150B08662926732E00CFFADC /* DashboardView.swift */; };
+		150B08692926734400CFFADC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150B08682926734400CFFADC /* ProfileView.swift */; };
 		1520140229266A6A004D3089 /* GitHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1520140129266A6A004D3089 /* GitHubApp.swift */; };
 		1520140429266A6A004D3089 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1520140329266A6A004D3089 /* ContentView.swift */; };
 		1520140629266A6B004D3089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1520140529266A6B004D3089 /* Assets.xcassets */; };
 		1520140929266A6B004D3089 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1520140829266A6B004D3089 /* Preview Assets.xcassets */; };
+		159592FC292677A4000F6185 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159592FB292677A4000F6185 /* Repository.swift */; };
+		1595930029267811000F6185 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159592FF29267811000F6185 /* DashboardViewModel.swift */; };
+		1595930329267959000F6185 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1595930229267959000F6185 /* ProfileViewModel.swift */; };
+		1595930629267987000F6185 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1595930529267987000F6185 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		150B08662926732E00CFFADC /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
-		150B08682926734400CFFADC /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		150B08662926732E00CFFADC /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		150B08682926734400CFFADC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		152013FE29266A6A004D3089 /* GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1520140129266A6A004D3089 /* GitHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubApp.swift; sourceTree = "<group>"; };
 		1520140329266A6A004D3089 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1520140529266A6B004D3089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1520140829266A6B004D3089 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		159592FB292677A4000F6185 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		159592FF29267811000F6185 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		1595930229267959000F6185 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		1595930529267987000F6185 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +67,9 @@
 				1520140529266A6B004D3089 /* Assets.xcassets */,
 				1520140129266A6A004D3089 /* GitHubApp.swift */,
 				1520140329266A6A004D3089 /* ContentView.swift */,
-				150B08662926732E00CFFADC /* Dashboard.swift */,
-				150B08682926734400CFFADC /* Profile.swift */,
+				159592FE29267803000F6185 /* Dashboard */,
+				159593012926794E000F6185 /* Profile */,
+				159593042926796C000F6185 /* Objects */,
 			);
 			path = GitHub;
 			sourceTree = "<group>";
@@ -71,6 +80,33 @@
 				1520140829266A6B004D3089 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		159592FE29267803000F6185 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				150B08662926732E00CFFADC /* DashboardView.swift */,
+				159592FF29267811000F6185 /* DashboardViewModel.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		159593012926794E000F6185 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				150B08682926734400CFFADC /* ProfileView.swift */,
+				1595930229267959000F6185 /* ProfileViewModel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		159593042926796C000F6185 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				159592FB292677A4000F6185 /* Repository.swift */,
+				1595930529267987000F6185 /* User.swift */,
+			);
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,8 +180,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1520140429266A6A004D3089 /* ContentView.swift in Sources */,
-				150B08692926734400CFFADC /* Profile.swift in Sources */,
-				150B08672926732E00CFFADC /* Dashboard.swift in Sources */,
+				150B08692926734400CFFADC /* ProfileView.swift in Sources */,
+				159592FC292677A4000F6185 /* Repository.swift in Sources */,
+				150B08672926732E00CFFADC /* DashboardView.swift in Sources */,
+				1595930629267987000F6185 /* User.swift in Sources */,
+				1595930029267811000F6185 /* DashboardViewModel.swift in Sources */,
+				1595930329267959000F6185 /* ProfileViewModel.swift in Sources */,
 				1520140229266A6A004D3089 /* GitHubApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
