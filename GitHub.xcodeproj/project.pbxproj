@@ -13,10 +13,20 @@
 		1520140429266A6A004D3089 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1520140329266A6A004D3089 /* ContentView.swift */; };
 		1520140629266A6B004D3089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1520140529266A6B004D3089 /* Assets.xcassets */; };
 		1520140929266A6B004D3089 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1520140829266A6B004D3089 /* Preview Assets.xcassets */; };
+		157CD0E62926810C008D3BCF /* AddFavRepoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD0E52926810C008D3BCF /* AddFavRepoView.swift */; };
+		157CD0E8292694F8008D3BCF /* RepoListDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD0E7292694F8008D3BCF /* RepoListDetails.swift */; };
+		157CD0ED2926B2A0008D3BCF /* MyWorkListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD0EC2926B2A0008D3BCF /* MyWorkListDetail.swift */; };
+		157CD0EF2926B369008D3BCF /* MyWorkListEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD0EE2926B369008D3BCF /* MyWorkListEnum.swift */; };
+		157CD0F3292713B9008D3BCF /* AddFavButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD0F2292713B9008D3BCF /* AddFavButton.swift */; };
+		157CD0F92927B963008D3BCF /* RecentMissing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157CD0F82927B963008D3BCF /* RecentMissing.swift */; };
 		159592FC292677A4000F6185 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159592FB292677A4000F6185 /* Repository.swift */; };
-		1595930029267811000F6185 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159592FF29267811000F6185 /* DashboardViewModel.swift */; };
-		1595930329267959000F6185 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1595930229267959000F6185 /* ProfileViewModel.swift */; };
-		1595930629267987000F6185 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1595930529267987000F6185 /* User.swift */; };
+		1595930629267987000F6185 /* GitUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1595930529267987000F6185 /* GitUser.swift */; };
+		159FDCC62927D05500A3AF62 /* ProfileIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159FDCC52927D05500A3AF62 /* ProfileIcon.swift */; };
+		159FDCC92927D10000A3AF62 /* UserActivityGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159FDCC82927D10000A3AF62 /* UserActivityGrid.swift */; };
+		159FDCCB2927D1A300A3AF62 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159FDCCA2927D1A300A3AF62 /* Organization.swift */; };
+		159FDCD22927E85300A3AF62 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159FDCD12927E85300A3AF62 /* ExploreView.swift */; };
+		159FDCD42927EE0E00A3AF62 /* ToolBarProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159FDCD32927EE0E00A3AF62 /* ToolBarProfileView.swift */; };
+		159FDCD62927EE6000A3AF62 /* ToolBarDasboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159FDCD52927EE6000A3AF62 /* ToolBarDasboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,10 +37,20 @@
 		1520140329266A6A004D3089 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1520140529266A6B004D3089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1520140829266A6B004D3089 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		157CD0E52926810C008D3BCF /* AddFavRepoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFavRepoView.swift; sourceTree = "<group>"; };
+		157CD0E7292694F8008D3BCF /* RepoListDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListDetails.swift; sourceTree = "<group>"; };
+		157CD0EC2926B2A0008D3BCF /* MyWorkListDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkListDetail.swift; sourceTree = "<group>"; };
+		157CD0EE2926B369008D3BCF /* MyWorkListEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWorkListEnum.swift; sourceTree = "<group>"; };
+		157CD0F2292713B9008D3BCF /* AddFavButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFavButton.swift; sourceTree = "<group>"; };
+		157CD0F82927B963008D3BCF /* RecentMissing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentMissing.swift; sourceTree = "<group>"; };
 		159592FB292677A4000F6185 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
-		159592FF29267811000F6185 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
-		1595930229267959000F6185 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
-		1595930529267987000F6185 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1595930529267987000F6185 /* GitUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitUser.swift; sourceTree = "<group>"; };
+		159FDCC52927D05500A3AF62 /* ProfileIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileIcon.swift; sourceTree = "<group>"; };
+		159FDCC82927D10000A3AF62 /* UserActivityGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActivityGrid.swift; sourceTree = "<group>"; };
+		159FDCCA2927D1A300A3AF62 /* Organization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
+		159FDCD12927E85300A3AF62 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		159FDCD32927EE0E00A3AF62 /* ToolBarProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarProfileView.swift; sourceTree = "<group>"; };
+		159FDCD52927EE6000A3AF62 /* ToolBarDasboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarDasboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +87,10 @@
 				1520140529266A6B004D3089 /* Assets.xcassets */,
 				1520140129266A6A004D3089 /* GitHubApp.swift */,
 				1520140329266A6A004D3089 /* ContentView.swift */,
-				159592FE29267803000F6185 /* Dashboard */,
-				159593012926794E000F6185 /* Profile */,
+				157CD0E7292694F8008D3BCF /* RepoListDetails.swift */,
+				159FDCD02927E82700A3AF62 /* ExploreView */,
+				159FDCC42927CFF800A3AF62 /* DashboardView */,
+				159FDCC32927CFEF00A3AF62 /* ProfileView */,
 				159593042926796C000F6185 /* Objects */,
 			);
 			path = GitHub;
@@ -82,31 +104,79 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		159592FE29267803000F6185 /* Dashboard */ = {
+		157CD0F1292713A0008D3BCF /* AddFavRepoView */ = {
 			isa = PBXGroup;
 			children = (
-				150B08662926732E00CFFADC /* DashboardView.swift */,
-				159592FF29267811000F6185 /* DashboardViewModel.swift */,
+				157CD0E52926810C008D3BCF /* AddFavRepoView.swift */,
+				157CD0F2292713B9008D3BCF /* AddFavButton.swift */,
 			);
-			path = Dashboard;
+			path = AddFavRepoView;
 			sourceTree = "<group>";
 		};
-		159593012926794E000F6185 /* Profile */ = {
+		157CD0F429272B43008D3BCF /* MyWorkListDetail */ = {
 			isa = PBXGroup;
 			children = (
-				150B08682926734400CFFADC /* ProfileView.swift */,
-				1595930229267959000F6185 /* ProfileViewModel.swift */,
+				157CD0EC2926B2A0008D3BCF /* MyWorkListDetail.swift */,
+				157CD0EE2926B369008D3BCF /* MyWorkListEnum.swift */,
 			);
-			path = Profile;
+			path = MyWorkListDetail;
+			sourceTree = "<group>";
+		};
+		157CD0F52927B843008D3BCF /* RecentMissingView */ = {
+			isa = PBXGroup;
+			children = (
+				157CD0F82927B963008D3BCF /* RecentMissing.swift */,
+			);
+			path = RecentMissingView;
 			sourceTree = "<group>";
 		};
 		159593042926796C000F6185 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
 				159592FB292677A4000F6185 /* Repository.swift */,
-				1595930529267987000F6185 /* User.swift */,
+				1595930529267987000F6185 /* GitUser.swift */,
+				159FDCCA2927D1A300A3AF62 /* Organization.swift */,
 			);
 			path = Objects;
+			sourceTree = "<group>";
+		};
+		159FDCC32927CFEF00A3AF62 /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				150B08682926734400CFFADC /* ProfileView.swift */,
+				159FDCC52927D05500A3AF62 /* ProfileIcon.swift */,
+				159FDCD32927EE0E00A3AF62 /* ToolBarProfileView.swift */,
+				159FDCC72927D0EA00A3AF62 /* UserActivity */,
+			);
+			path = ProfileView;
+			sourceTree = "<group>";
+		};
+		159FDCC42927CFF800A3AF62 /* DashboardView */ = {
+			isa = PBXGroup;
+			children = (
+				150B08662926732E00CFFADC /* DashboardView.swift */,
+				159FDCD52927EE6000A3AF62 /* ToolBarDasboardView.swift */,
+				157CD0F52927B843008D3BCF /* RecentMissingView */,
+				157CD0F429272B43008D3BCF /* MyWorkListDetail */,
+				157CD0F1292713A0008D3BCF /* AddFavRepoView */,
+			);
+			path = DashboardView;
+			sourceTree = "<group>";
+		};
+		159FDCC72927D0EA00A3AF62 /* UserActivity */ = {
+			isa = PBXGroup;
+			children = (
+				159FDCC82927D10000A3AF62 /* UserActivityGrid.swift */,
+			);
+			path = UserActivity;
+			sourceTree = "<group>";
+		};
+		159FDCD02927E82700A3AF62 /* ExploreView */ = {
+			isa = PBXGroup;
+			children = (
+				159FDCD12927E85300A3AF62 /* ExploreView.swift */,
+			);
+			path = ExploreView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,14 +249,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157CD0E8292694F8008D3BCF /* RepoListDetails.swift in Sources */,
+				157CD0ED2926B2A0008D3BCF /* MyWorkListDetail.swift in Sources */,
+				157CD0E62926810C008D3BCF /* AddFavRepoView.swift in Sources */,
 				1520140429266A6A004D3089 /* ContentView.swift in Sources */,
+				157CD0F3292713B9008D3BCF /* AddFavButton.swift in Sources */,
+				159FDCC92927D10000A3AF62 /* UserActivityGrid.swift in Sources */,
+				159FDCD62927EE6000A3AF62 /* ToolBarDasboardView.swift in Sources */,
 				150B08692926734400CFFADC /* ProfileView.swift in Sources */,
 				159592FC292677A4000F6185 /* Repository.swift in Sources */,
 				150B08672926732E00CFFADC /* DashboardView.swift in Sources */,
-				1595930629267987000F6185 /* User.swift in Sources */,
-				1595930029267811000F6185 /* DashboardViewModel.swift in Sources */,
-				1595930329267959000F6185 /* ProfileViewModel.swift in Sources */,
+				159FDCD22927E85300A3AF62 /* ExploreView.swift in Sources */,
+				159FDCC62927D05500A3AF62 /* ProfileIcon.swift in Sources */,
+				1595930629267987000F6185 /* GitUser.swift in Sources */,
+				157CD0F92927B963008D3BCF /* RecentMissing.swift in Sources */,
 				1520140229266A6A004D3089 /* GitHubApp.swift in Sources */,
+				159FDCD42927EE0E00A3AF62 /* ToolBarProfileView.swift in Sources */,
+				159FDCCB2927D1A300A3AF62 /* Organization.swift in Sources */,
+				157CD0EF2926B369008D3BCF /* MyWorkListEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

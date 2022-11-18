@@ -8,31 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var user = GitUser()
+    
     var body: some View {
-        NavigationStack{
-            TabView{
-                DashboardView()
-                    .tabItem {
-                        Image(systemName: "house")
-                        Text("Dashboard")
-                    }
-                Text("Explore")
-                    .tabItem {
-                        Image(systemName: "magnifyingglass")
-                        Text("Explore")
-                    }
-                ProfileView()
-                    .tabItem {
-                        Image(systemName: "person.crop.circle")
-                        Text("Profile")
-                    }
-            }
+        TabView{
+            DashboardView(User: user)
+                .tabItem {Label("Dashboard", systemImage: "house")}
+            
+            ExploreView()
+                .tabItem {Label("Explore", systemImage: "magnifyingglass")}
+            
+            ProfileView(User: user)
+                .tabItem {Label("Profile", systemImage: "person.crop.circle")}
         }
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }

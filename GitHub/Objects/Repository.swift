@@ -7,14 +7,20 @@
 
 import Foundation
 
-struct Repository {
+struct Repository : Hashable{
     var Name : String
     var Owner : String
-    var Favourite : Bool
+    var Favorite : Bool
     
     init(Name: String, Owner: String) {
         self.Name = Name
         self.Owner = Owner
-        self.Favourite = false
+        self.Favorite = false
+    }
+    
+    init(Name: String, Owner: String, Favorite: Bool) {
+        self.Name = Name
+        self.Owner = Owner
+        self.Favorite = Favorite
     }
 }
