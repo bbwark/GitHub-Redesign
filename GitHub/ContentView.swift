@@ -12,16 +12,21 @@ struct ContentView: View {
     var user = GitUser()
     
     var body: some View {
-        TabView{
-            DashboardView(User: user)
-                .tabItem {Label("Dashboard", systemImage: "house")}
-            
-            ExploreView()
-                .tabItem {Label("Explore", systemImage: "magnifyingglass")}
-            
-            ProfileView(User: user)
-                .tabItem {Label("Profile", systemImage: "person.crop.circle")}
+        TabView {
+            Group{
+                DashboardView(User: user)
+                    .tabItem {Label("Dashboard", systemImage: "house")}
+                
+                ExploreView()
+                    .tabItem {Label("Explore", systemImage: "magnifyingglass")}
+                
+                ProfileView(User: user)
+                    .tabItem {Label("Profile", systemImage: "person.crop.circle")}
+                    .toolbar(.visible, for: .tabBar)
+                    .toolbarBackground(Color(uiColor: .systemGray6), for: .tabBar)
+            }
         }
+        
     }
     
     struct ContentView_Previews: PreviewProvider {

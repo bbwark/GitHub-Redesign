@@ -14,11 +14,16 @@ struct RepoListDetails: View {
     var body: some View {
         
         HStack{
-            Image(systemName: "bookmark.square")
-                .resizable()
-                .frame(width: 30.0, height: 30.0)
-                .scaledToFit()
+            ZStack {
+                Rectangle()
+                    .frame(width: 28.0, height: 28.0)
+                    .foregroundColor(.white)
+                Image(systemName: "bookmark.square.fill")
+                    .resizable()
+                    .frame(width: 30.0, height: 30.0)
+                    .scaledToFit()
                 .foregroundColor(.gray)
+            }
             VStack(alignment: .leading){
                 Text(repo.Name)
                     .font(.headline)

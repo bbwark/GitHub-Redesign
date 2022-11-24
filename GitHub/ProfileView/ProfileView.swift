@@ -16,48 +16,18 @@ struct ProfileView: View {
                 Color("Background").ignoresSafeArea()
                 VStack{
                     ProfileIcon(User: User)
-                                
-                    UserActivityGrid(User: User)
                     
                     List{
                         Section{
                             NavigationLink {
                                 Text("Repositories")
                             } label: {
-                                HStack{
-                                    Image(systemName: "bookmark.square")
-                                        .resizable()
-                                        .frame(width: 30.0, height: 30.0)
-                                        .scaledToFit()
-                                        .foregroundColor(.gray)
-                                    VStack(alignment: .leading){
-                                        Text("Repositories")
-                                            .font(.headline)
-                                        Text("\(User.Repositories.count)")
-                                            .font(.subheadline)
-                                            .foregroundColor(.gray)
-                                    }
-                                }
-                            }
+                                ProfileListDetail(WhichElement: .Repositories, User: User)}
                             
                             NavigationLink {
                                 Text("Organizations")
                             } label: {
-                                HStack{
-                                    Image(systemName: "building.2.fill")
-                                        .resizable()
-                                        .frame(width: 30.0, height: 30.0)
-                                        .scaledToFit()
-                                        .foregroundColor(.orange)
-                                    VStack(alignment: .leading){
-                                        Text("Organizations")
-                                            .font(.headline)
-                                        Text("\(User.Organizations.count)")
-                                            .font(.subheadline)
-                                            .foregroundColor(.gray)
-                                    }
-                                }
-                            }
+                                ProfileListDetail(WhichElement: .Organizations, User: User)}
                         }
                         
                         if !User.Repositories.isEmpty{

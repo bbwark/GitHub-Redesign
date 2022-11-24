@@ -42,7 +42,6 @@ struct GitUser {
                 result.append(repo)
             }
         }
-        
         return result
     }
 }
